@@ -5,6 +5,10 @@ from matplotlib.colors import ListedColormap
 import random
 import time
 
+from epidemic_model import EpidemicModel
+from forest_fire_model import ForestFireModel
+from traffic_model import TrafficModel
+
 # --- НАСТРОЙКИ СТРАНИЦЫ И СТИЛИЗАЦИЯ ---
 st.set_page_config(page_title="Моделирование сложных систем", layout="wide", initial_sidebar_state="expanded")
 
